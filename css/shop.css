@@ -1,0 +1,85 @@
+/********/
+/* SHOP */
+/********/
+
+.entry-date.shop {
+	display: none;
+}
+
+.entry-title.shop,
+.entry-summary.shop,
+.entry-content.shop {
+	text-align: center;
+}
+
+.entry-header .entry-title.shop {
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.entry-summary.shop {
+	margin-bottom: 1em;
+}
+
+.entry-summary.shop p {
+	color: #000;
+	font-size: 16px;
+	font-style: normal;
+}
+
+.shop-row {
+	clear: both;
+	margin-bottom: 2em;
+}
+
+.shop-row.header {
+	margin-bottom: 10px;
+}
+
+.shop-col {
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+}
+
+.shop-col.left {
+	padding-right: 2%;
+}
+
+.shop-col.right {
+	padding-left: 2%;
+}
+
+.shop-col .header {
+	font-family: 'GandhiSerifRegular', Georgia, Garamond, serif;
+	font-size: 24px;
+}
+
+.shop-col a.link {
+	display: block;
+	text-decoration: none;
+}
+
+.shop-col a.link:hover {
+	cursor: pointer;
+}
+
+.shop-col img {
+	border: 1px solid #666;
+	width: 100%;
+	margin: 0 0 5px !important;
+}
+
+.shop-col a.link:hover img {
+	border: 1px solid #000;
+}
+
+.shop-col .caption {
+	color: #666;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.shop-col a.link:hover .caption {
+	color: #000;
+}

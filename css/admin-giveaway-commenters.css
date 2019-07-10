@@ -1,0 +1,30 @@
+/******************************/
+/* ADMIN: GIVEAWAY COMMENTERS */
+/******************************/
+
+.giveaway {
+	border-top: 1px solid #DDD;
+	margin: 1em 0;
+}
+
+.giveaway-winner {
+	background: #F5F5F5;
+	border-radius: 5px;
+	display: inline-block;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.giveaway-winner.selected {
+	background: #BAE3B0;
+}
+
+.refresh-comment {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.select-winner {
+	display: inline-block;
+}

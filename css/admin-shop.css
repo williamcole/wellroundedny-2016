@@ -1,0 +1,101 @@
+/**************/
+/* ADMIN SHOP */
+/**************/
+
+#wrny_shop_editor table.shop {
+	width: 100%;
+}
+
+#wrny_shop_editor .form-table td {
+	text-align: center;
+}
+
+#wrny_shop_editor .form-table td.col2 {
+	width: 50%;
+}
+
+#wrny_shop_editor .form-table tr.category {
+	border-top: 1px dashed #CCC;
+}
+
+#wrny_shop_editor .form-table td label {
+	color: #999;
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#wrny_shop_editor .form-table td.header label {
+	text-align: center;
+}
+
+#wrny_shop_editor .form-table td.header input[type="text"] {
+	width: 50%;
+}
+
+#wrny_shop_editor .form-table tr.category td label {
+	text-align: center;
+}
+
+#wrny_shop_editor .form-table td input[type="text"],
+#wrny_shop_editor .form-table td textarea {
+	color: #000;
+	margin: 0 0 10px;
+	width: 100%;
+}
+
+#wrny_shop_editor .form-table td input.helper-text[type="text"],
+#wrny_shop_editor .form-table td textarea.helper-text {
+	color: #BBB;
+	text-transform: uppercase;
+}
+
+#wrny_shop_editor .form-table td textarea {
+	height: 50px;
+}
+
+#wrny_shop_editor .form-table td input.shop-category[type="text"] {
+	width: 50%;
+}
+
+#wrny_shop_editor .uploader {
+	margin-bottom: 10px;
+}
+
+#wrny_shop_editor .shop_image_preview {
+	background: #FFF;
+	border: 1px solid #CCC;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#wrny_shop_editor .shop_image_preview,
+#wrny_shop_editor .shop_image_preview img {
+	display: block;
+	width: 150px;
+	height: 150px;
+}
+
+#wrny_shop_editor .image_button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: 5px;
+	width: auto;
+	text-transform: uppercase;
+}
+
+/* wp_editor */
+
+#wrny_shop_editor .wp-editor-container {
+	margin-bottom: 10px;
+}
+
+#wrny_shop_editor .mceIframeContainer {
+	background: #FFF;
+}
+
+#wrny_shop_editor .mceStatusbar {
+	display: none;
+}

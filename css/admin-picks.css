@@ -1,0 +1,101 @@
+/***************/
+/* ADMIN PICKS */
+/***************/
+
+#wrny_picks_editor table.picks {
+	width: 100%;
+}
+
+#wrny_picks_editor .form-table td {
+	text-align: center;
+}
+
+#wrny_picks_editor .form-table td.col2 {
+	width: 50%;
+}
+
+#wrny_picks_editor .form-table tr.category {
+	border-top: 1px dashed #CCC;
+}
+
+#wrny_picks_editor .form-table td label {
+	color: #999;
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#wrny_picks_editor .form-table td.header label {
+	text-align: center;
+}
+
+#wrny_picks_editor .form-table td.header input[type="text"] {
+	width: 50%;
+}
+
+#wrny_picks_editor .form-table tr.category td label {
+	text-align: center;
+}
+
+#wrny_picks_editor .form-table td input[type="text"],
+#wrny_picks_editor .form-table td textarea {
+	color: #000;
+	margin: 0 0 10px;
+	width: 100%;
+}
+
+#wrny_picks_editor .form-table td input.helper-text[type="text"],
+#wrny_picks_editor .form-table td textarea.helper-text {
+	color: #BBB;
+	text-transform: uppercase;
+}
+
+#wrny_picks_editor .form-table td textarea {
+	height: 50px;
+}
+
+#wrny_picks_editor .form-table td input.pick-category[type="text"] {
+	width: 50%;
+}
+
+#wrny_picks_editor .uploader {
+	margin-bottom: 10px;
+}
+
+#wrny_picks_editor .pick_image_preview {
+	background: #FFF;
+	border: 1px solid #CCC;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#wrny_picks_editor .pick_image_preview,
+#wrny_picks_editor .pick_image_preview img {
+	display: block;
+	width: 150px;
+	height: 150px;
+}
+
+#wrny_picks_editor .image_button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: 5px;
+	width: auto;
+	text-transform: uppercase;
+}
+
+/* wp_editor */
+
+#wrny_picks_editor .wp-editor-container {
+	margin-bottom: 10px;
+}
+
+#wrny_picks_editor .mceIframeContainer {
+	background: #FFF;
+}
+
+#wrny_picks_editor .mceStatusbar {
+	display: none;
+}

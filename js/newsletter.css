@@ -1,0 +1,139 @@
+/**************/
+/* NEWSLETTER */
+/**************/
+
+.page-template-page-newsletter-php #primary,
+.page-template-page-mailchimp-php #primary {
+	float: none;
+	width: auto;
+}
+#newsletter-overlay {
+	background: #FFF;
+	border: 1px solid #000;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px 2px #999;
+	margin: 10px;
+	padding: 1em;	
+	text-align: center;
+	width: 450px;
+	height: 450px;
+}
+#newsletter-content,
+#newsletter-content .entry-content {
+	text-align: center;
+}
+#newsletter-content h1 {
+	color: #999;
+	font: 48px/1em 'NeoRetroDrawRegular', Arial, sans-serif;
+	margin: 0;
+}
+#newsletter-content h2 {
+	color: #999;
+	font: 32px/1em 'NeoRetroDrawRegular', Arial, sans-serif;
+	margin: 0 0 10px;
+}
+#newsletter-content h3 {
+	color: #CCBF00;
+	margin-top: 1em;
+}
+#newsletter-content p {
+	font: 14px/1.2em 'GandhiSerifBoldItalic', Georgia, Garamond, serif;
+	margin-bottom: 1em;
+}
+#newsletter-content form {
+	display: inline-block;
+	margin: 0 auto;
+	width: auto;
+}
+#newsletter-content label {
+	display: none;
+}
+#newsletter-content form input[type="submit"] {
+	background: #000;
+	background-image: none;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	color: #FFF;
+	font: 13px/1.2em 'GandhiSerifRegular', Georgia, Garamond, serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+#newsletter-content form input[type="submit"]:hover {
+	color: #CCBF00;
+}
+#newsletter-content .helper-text {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+#newsletter-content img {
+	margin: 0 auto;
+	position: relative;
+	right: 2px;
+}
+#newsletter-content img.logo {
+	margin: 5px auto 0;
+	position: static;
+	width: 33%;
+}
+
+
+/* Mailchimp */
+
+#mc_embed_signup{
+	/*
+	background:#fff;
+	clear:left;
+	font:14px Helvetica,Arial,sans-serif;
+	*/
+}
+#mc_embed_signup h2 {
+	margin: 5px auto 10px !important;
+}
+#mc_embed_signup_scroll {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 360px;
+}
+#mc_embed_signup .mc-field-group .asterisk {
+	color: #CCBF00 !important;
+	top: 20px;
+}
+#mc_embed_signup .required {
+	color: #999;
+}
+#mc_embed_signup .mc-field-group {
+	clear: none !important;
+	margin: 0 auto;
+}
+#mc_embed_signup .mc-field-group.email {
+	width: 95%;
+}
+#mc_embed_signup .mc-field-group.half {
+	float: left;
+	width: 50%;
+}
+#mc_embed_signup .mc-field-group label {
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #C2C3C5;
+}
+#mc_embed_signup .mc-field-group input {
+	margin: 0 auto;
+}
+#mc_embed_signup .mc-field-group.first-name input,
+#mc_embed_signup .mc-field-group.last-name input,
+#mc_embed_signup .mc-field-group.zip-code input {
+	width: 90%;
+}	
+#mc_embed_signup input.mce_inline_error {
+	border-color: #CCBF00;
+}
+#mc_embed_signup div.mce_inline_error {
+	background-color: #CCBF00;
+}
+#mc_embed_signup #mce-success-response {
+	color: #CCBF00;
+	padding: 0;
+	width: 100%;
+}	

@@ -1,0 +1,84 @@
+/*********/
+/* PICKS */
+/*********/
+
+.entry-date.picks {
+	display: none;
+}
+
+.entry-title.picks,
+.entry-summary.picks,
+.entry-content.picks {
+	text-align: center;
+}
+
+.entry-header .entry-title.picks {
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.entry-summary.picks {
+	margin-bottom: 1em;
+}
+
+.entry-summary.picks p {
+	color: #000;
+	font-size: 16px;
+	font-style: normal;
+}
+
+.picks-row {
+	clear: both;
+	margin-bottom: 2em;
+}
+
+.picks-row.header {
+	margin-bottom: 10px;
+}
+
+.picks-col {
+	display: inline-block;
+	width: 48%;
+}
+
+.picks-col.left {
+	padding-right: 2%;
+}
+
+.picks-col.right {
+	padding-left: 2%;
+}
+
+.picks-col .header {
+	font-family: 'GandhiSerifRegular', Georgia, Garamond, serif;
+	font-size: 24px;
+}
+
+.picks-col a.link {
+	display: block;
+	text-decoration: none;
+}
+
+.picks-col a.link:hover {
+	cursor: pointer;
+}
+
+.picks-col img {
+	border: 1px solid #666;
+	width: 100%;
+	margin: 0 0 5px !important;
+}
+
+.picks-col a.link:hover img {
+	border: 1px solid #000;
+}
+
+.picks-col .caption {
+	color: #666;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.picks-col a.link:hover .caption {
+	color: #000;
+}
